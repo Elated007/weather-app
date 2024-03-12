@@ -32,10 +32,10 @@ async function checkWeather(city) {
   wind_speed.innerHTML = `${weather_data.main.wind_speed}Km/H`;
 
   switch (weather_data.weather[0].main) {
-    case "broken-cloud":
+    case "Broken_Cloud":
       weather_img.src = "assets/images/cloudy.png";
       break;
-    case "clear-sky":
+    case "Clear_Sky":
       weather_img.src = "/assets/images/clear-sky.png";
       break;
     case "Rain":
